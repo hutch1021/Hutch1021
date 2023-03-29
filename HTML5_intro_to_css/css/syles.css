@@ -41,7 +41,8 @@ main {
 }
 
 main img {
-    display: block;
+    display: block
+    center;
     margin: 20px auto;
     width: 35%;
 }
