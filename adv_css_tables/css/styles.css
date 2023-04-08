@@ -1,16 +1,17 @@
 body{
-    background-color: #91BF4B ;
+    background-color: #4B50BF;
+    text-align: center;
 }
 
 img {
     display: block;
     margin: 0 auto;
-    width: 75%;
+    width: 100%;
 } 
 
 
 #container {
-    background-color: #4B50BF;
+    background-color: #91BF4B;
     width: 80%;
     margin: 20px auto;
 }
@@ -62,6 +63,9 @@ aside {
     border: 2px solid crimson;
     margin: 20px;
     padding: 20px;
+    border: 6px double crimson; 
+    border-radius: 10px;
+    margin: 0 10px;
 
 }
 
@@ -74,14 +78,31 @@ aside {
     width: 50%;
 }
 
+.single_page {
+    width: 100%;
+}
+
+#main_img_resize {
+    width: 80%;
+}
+
+#console_img_resize {
+    width: 35%;
+}
+
 #lower_area {
     display:flex
+    
 }
 
 .col {
-    border: 2px solid crimson;
-    margin: 10px;
+    border: 6px double #4B50BF;
+    text-align: center;
+    margin: 0 10px;
     padding: 10px;
+    border-radius: 10px;
+    width: 33%;
+    
 
 
 }
@@ -89,7 +110,11 @@ aside {
 footer{
     background-color: #BF4B4B;
     text-align:center; 
+    font-weight: bold;
     padding: 40px 0;
+    border: 5px double #91BF4B;
+    border-radius: 10px
+    
 }
 
 .button {
@@ -107,4 +132,27 @@ footer{
 .button:hover {
     background-color: #91BF4B;
     border-color: gray;
+}
+
+table {
+    border: 4px solid #4B50BF
+    
+
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+table img{
+    width:250px;
+    height: 250px;
+
+  }
+
+td, tr {
+    border: 6px double crimson;
+    padding: 10px;
+    margin: 10px;
 }
